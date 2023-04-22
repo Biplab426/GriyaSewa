@@ -108,7 +108,7 @@ def Login_admin(request):
     if request.method == "POST":
         u = request.POST['uname']
         p = request.POST['pwd']
-        user = authenticate(username=u, password=p);
+        user = authenticate(username=u, password=p)
         if user.is_staff:
             login(request, user)
             error="pat"
