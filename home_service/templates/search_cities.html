@@ -32,7 +32,7 @@
     {% if not terror %}
     <div class="row">
         <div class="col-md-12">
-            <img src="{% static 'images/search1.jpg' %}" style="width:100%;height:300px">
+            <img src="{% static 'images/search1.jpg' %}" style="width:100%;height:auto">
         </div>
         <div class="col-md-12">
             <form method="post" action="" enctype="multipart/form-data">
@@ -83,10 +83,12 @@
                                     <ul style="color:grey">
                                         <li>Mobile No. :- {{i.contact}}</li>
                                         <li>Address :- {{i.address}}</li>
-                                        <li>Work :- {{i.experience}} year</li>
-                                        <li>Experience :- {{i.contact}}</li>
+                                        <li>Work :- {{i.service_name}}</li>
+                                        <li>Experience :- {{i.experience}} year(s)</li>
                                         <li>City :- {{i.city}}</li>
+                                        <li>Hourly Rate :- {{i.service_charge}} NPR</li>
                                         <a href="{% url 'booking' i.id %}" ><button class="btn btn-success" style="margin-top:8%;width:60%">Book Now</button></a>
+                                        
                                     </ul>
                                 </div>
 

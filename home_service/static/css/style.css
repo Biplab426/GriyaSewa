@@ -59,7 +59,7 @@ label {
 	margin: 0;
 }
 a{
-	color:#000;
+	color:#000000;
 }
 a:focus, a:hover {
 	text-decoration: none;
@@ -91,6 +91,7 @@ a:focus, a:hover {
     height: 32px;
     display: block;
     overflow: hidden;
+   
     float: right;
     opacity: 0;
     -moz-opacity: 0;
@@ -151,7 +152,7 @@ a:focus, a:hover {
 }
 
 .navbar-collapse {
-    padding: 0;
+    padding: 0px;
 }
 .modal-backdrop {
     position: fixed;
@@ -197,27 +198,27 @@ a:focus, a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 600px;
+    min-height: 800px;
 }
 
 .slider-img-2 {
-    background: url(../images/homeservice.jpg) no-repeat 0px 0px;
+    background: url(../images/g15.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 600px;
+    min-height: 800px;
 }
 
 .slider-img-3 {
-    background: url(../images/homeservice.jpg) no-repeat 0px 0px;
+    background: url(../images/bb4.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 600px;
+    min-height: 800px;
 }
 
 .slider_banner_info {
@@ -368,7 +369,7 @@ a:focus, a:hover {
 
 .callbacks_nav {
     position: absolute;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(1, 247, 255, 0);
     bottom: -35%;
     left: 0;
     z-index: 3;
@@ -539,7 +540,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 .letter {
   display: inline-block;
   position: relative;
-  float: left;
+  float: none;
   transform: translateZ(25px);
   transform-origin: 50% 50% 25px;
 }
@@ -571,7 +572,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
     font-size: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
 	margin:0 15px;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -774,7 +775,7 @@ li.w3 {
 
 /** Banner Bottom **/
 .w3_ban1 {
-    margin-bottom: 20px;
+    margin-bottom: px;
 }
 .card-title {
     margin-bottom: .75rem;
@@ -782,6 +783,7 @@ li.w3 {
 }
 .card-body {
     text-align: center;
+    
 }
 a.btn.btn-primary {
     margin-top: 30px;
@@ -980,7 +982,7 @@ ul.top-links li a i.fa {
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
-  user-select: none;
+  -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -2163,7 +2165,7 @@ section.footer h3 {
 .navbar-light .navbar-toggler {
     color: #fff;
     border-color: #fff;
-	background-color: #fff;
+	background-color: #ffffff;
 }
 ul.navbar-nav.ml-auto {
     text-align: center;

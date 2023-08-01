@@ -35,6 +35,7 @@ class Service_Man(models.Model):
     id_type = models.CharField(max_length=100, null=True)
     service_name = models.CharField(max_length=100, null=True)
     experience = models.CharField(max_length=100, null=True)
+    service_charge=models.BigIntegerField(default=500)
     image = models.FileField(null=True)
 
     def __str__(self):

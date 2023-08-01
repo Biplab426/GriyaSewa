@@ -86,7 +86,7 @@
     <label for="exampleInputPassword1">Select City</label>
     <select class="form-control" name="city">
         {% for i in city %}
-        {% if equal == pro.city.city  i.city %}
+        {% if equal == pro.city.city   %}
         <option value="{{i.city}}" selected>{{i.city}}</option>
         {% else %}
         <option value="{{i.city}}">{{i.city}}</option>
@@ -107,7 +107,7 @@
     <label for="exampleInputPassword1">Select your Service</label>
     <select class="form-control" name="service">
         {% for i in ser %}
-        {% if equal == pro.service_name i.category %}
+        {% if equal == pro.service_name %}
         <option value="{{i.category}}" selected>{{i.category}}</option>
         {% else %}
         <option value="{{i.category}}">{{i.category}}</option>
